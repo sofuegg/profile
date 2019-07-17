@@ -1,0 +1,76 @@
+body {
+  /* background-color: #f8f9fa; */
+  background-image: url("/images/7.jpg");
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: #454545;
+  line-height: 28px;
+  text-align: center;
+}
+
+h1  {
+  font-size: 16px
+}
+
+a {
+    color: #f8f9fa;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+div {
+    background: white;    /* White background */
+    padding: 30px;          /* Internal space */
+    border-radius: 16px;    /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 70%;             /* Set the width */
+    margin: 20px auto;      /* Set automatic margins on right/left */
+}
+
+#logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+}
+
+#qr {
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+}
+
+.btn-blue {
+    background: #393E41;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    margin: 0px 0px 0px -20px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
+  .list-inline {
+    display: inline-block;
+    padding: 0px 0px;
+  }
+
+  .icon-blue > a > i{
+      font-size: 30px;
+      color: #393E41;
+  }
+
+  .mini_icon {
+    color: #f8f9fa;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    width: 40px;
+}
